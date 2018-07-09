@@ -8,5 +8,5 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:port
+# start serve with at localhost:port
 node server
