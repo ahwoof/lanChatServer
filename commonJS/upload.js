@@ -34,7 +34,7 @@ exports.upload = function(req, res) {
             var avatarName = '/' + Date.now() +'@' + name;
             var newPath = form.uploadDir + avatarName;
             displayUrl = '/uploadcache' + avatarName;
-            fs.renameSync(files.file.path, newPath); //重命名
+            fs.renameSync(files.file.path, newPath); //重命名哦
             res.json({
                 code: 0,
                 img: displayUrl,
